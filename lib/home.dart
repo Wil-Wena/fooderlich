@@ -5,6 +5,7 @@ import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:fooderlich/cards/Card1.dart';
 import 'cards/Card2.dart';
+import 'cards/card3.dart';
 
 class MyWidget extends StatefulWidget {
   MyWidget({Key? key}) : super(key: key);
@@ -18,7 +19,7 @@ class _MyWidgetState extends State<MyWidget> {
   static List<Widget> pages = <Widget>[
     Card1(),
     card2(),
-    Container(color: Colors.blue),
+    card3(),
   ];
   void _onItemTapped(int index) {
     setState(() {
