@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fooderlich/home.dart';
 import 'fooderlih_theme.dart';
-import 'cards/Card1.dart';
-import 'cards/Card2.dart';
-
 import 'package:responsive_framework/responsive_framework.dart';
 
 void main() {

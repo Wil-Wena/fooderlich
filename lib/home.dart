@@ -1,8 +1,6 @@
 // ignore_for_file: unnecessary_const
 
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:fooderlich/cards/Card1.dart';
 import 'cards/Card2.dart';
 import 'cards/card3.dart';
@@ -45,9 +43,9 @@ class _MyWidgetState extends State<MyWidget> {
             BottomNavigationBarItem(
                 icon: Icon(Icons.card_giftcard), label: 'Card'),
             BottomNavigationBarItem(
-                icon: Icon(Icons.card_giftcard), label: 'Card 2'),
+                icon: Icon(Icons.bookmark_outline), label: 'Card 2'),
             BottomNavigationBarItem(
-                icon: Icon(Icons.card_giftcard), label: 'Card 3'),
+                icon: Icon(Icons.book_outlined), label: 'Card 3'),
           ],
         ));
   }
